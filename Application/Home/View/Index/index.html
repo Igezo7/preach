@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>活动详情</title>
-    <link rel="stylesheet" href="./Public/css/index.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/index.css">
     <script>
         !function(a,b){function c(){var b=f.getBoundingClientRect().width;b/i>540&&(b=540*i);var c=b/10;f.style.fontSize=c+"px",k.rem=a.rem=c}var d,e=a.document,f=e.documentElement,g=e.querySelector('meta[name="viewport"]'),h=e.querySelector('meta[name="flexible"]'),i=0,j=0,k=b.flexible||(b.flexible={});if(g){console.warn("将根据已有的meta标签来设置缩放比例");var l=g.getAttribute("content").match(/initial\-scale=([\d\.]+)/);l&&(j=parseFloat(l[1]),i=parseInt(1/j))}else if(h){var m=h.getAttribute("content");if(m){var n=m.match(/initial\-dpr=([\d\.]+)/),o=m.match(/maximum\-dpr=([\d\.]+)/);n&&(i=parseFloat(n[1]),j=parseFloat((1/i).toFixed(2))),o&&(i=parseFloat(o[1]),j=parseFloat((1/i).toFixed(2)))}}if(!i&&!j){var p=(a.navigator.appVersion.match(/android/gi),a.navigator.appVersion.match(/iphone/gi)),q=a.devicePixelRatio;i=p?q>=3&&(!i||i>=3)?3:q>=2&&(!i||i>=2)?2:1:1,j=1/i}if(f.setAttribute("data-dpr",i),!g)if(g=e.createElement("meta"),g.setAttribute("name","viewport"),g.setAttribute("content","initial-scale="+j+", maximum-scale="+j+", minimum-scale="+j+", user-scalable=no"),f.firstElementChild)f.firstElementChild.appendChild(g);else{var r=e.createElement("div");r.appendChild(g),e.write(r.innerHTML)}a.addEventListener("resize",function(){clearTimeout(d),d=setTimeout(c,300)},!1),a.addEventListener("pageshow",function(a){a.persisted&&(clearTimeout(d),d=setTimeout(c,300))},!1),"complete"===e.readyState?e.body.style.fontSize=12*i+"px":e.addEventListener("DOMContentLoaded",function(){e.body.style.fontSize=12*i+"px"},!1),c(),k.dpr=a.dpr=i,k.refreshRem=c,k.rem2px=function(a){var b=parseFloat(a)*this.rem;return"string"==typeof a&&a.match(/rem$/)&&(b+="px"),b},k.px2rem=function(a){var b=parseFloat(a)/this.rem;return"string"==typeof a&&a.match(/px$/)&&(b+="rem"),b}}(window,window.lib||(window.lib={}));
     </script>
@@ -13,7 +13,7 @@
         <div class="cover alert" style="display: none;">
             <div class="alert-box">
                 <div class="alert-icon">
-                    <img src="./Public/img/aIcon.png" alt="">
+                    <img src="__PUBLIC__/img/aIcon.png" alt="">
                 </div>
                 <p class="alert-info a-info-1">亲！未输入名字或者名字太长啦，请重新输入</p>
                 <div class="alert-confirm">确定</div>
@@ -34,24 +34,24 @@
         </div>
         <div class="header">
             <div class="logo">
-                <img src="./Public/img/logo.png" alt="">
+                <img src="__PUBLIC__/img/logo.png" alt="">
             </div>
             <h2 class="title">
-                <img src="./Public/img/title.png" alt="">
+                <img src="__PUBLIC__/img/title.png" alt="">
             </h2>
         </div>
         <div class="content">
             <div class="paper">
-                <img src="./Public/img/paper.png" alt="">
+                <img src="__PUBLIC__/img/paper.png" alt="">
             </div>
             <div class="left-hand-1">
-                <img src="./Public/img/lefth1.png" alt="">
+                <img src="__PUBLIC__/img/lefth1.png" alt="">
             </div>
             <div class="left-hand-2">
-                <img src="./Public/img/lefth2.png" alt="">
+                <img src="__PUBLIC__/img/lefth2.png" alt="">
             </div>
             <div class="right-hand">
-                <img src="./Public/img/righth.png" alt="">
+                <img src="__PUBLIC__/img/righth.png" alt="">
             </div>
         </div>
         <form action="{:U('index/test')}" method="post" class="form">
@@ -68,7 +68,7 @@
         <div class="copyright">©红岩网校工作站</div>
     </div>
 </body>
-<script src="./Public/js/index.js"></script>
+<script src="__PUBLIC__/js/index.js"></script>
 <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
  <script src="http://hongyan.cqupt.edu.cn/wx-api/share.js"></script>
 <script>
