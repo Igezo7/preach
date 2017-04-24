@@ -28,7 +28,7 @@
         <div class="alert" style="display: none;">
             <div class="alert-box">
                 <div class="alert-icon">
-                    <img src="../../../Public/img/test.jpg" alt="">
+                    <img src="/preach/Public/img/test.jpg" alt="">
                 </div>
                 <p class="alert-info a-info-1">亲！你的入团誓词名片已生成。</p>
                 <p class="alert-info a-info-2">赶紧长按图片保存并分享吧～</p>
@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class="inner" style="display: none;">
-            <img src="../../../Public/cache/<?php echo ($time); ?>.jpg" alt="">
+            <img src="/preach/Public/cache/<?php echo ($time); ?>.jpg" alt="">
         </div>
     </div>
 </body>

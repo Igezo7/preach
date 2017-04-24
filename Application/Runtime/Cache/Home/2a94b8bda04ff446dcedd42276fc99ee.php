@@ -75,9 +75,9 @@
     WXSHARE.config({debug: false});
     WXSHARE.ready(function() {
         var option = {
-        title: "test",
-        link: "http://hongyan.cqupt.edu.cn/leifeng/index.html",
-        imgUrl: 'http://hongyan.cqupt.edu.cn/leifeng/image/jinli.png',
+        title: "亮出团员身份，重温入团誓词",
+        link: "http://202.202.43.42/preach",
+        imgUrl: './Public/img/logo.png',
         desc: '',
         type: '',
         success: function() {
