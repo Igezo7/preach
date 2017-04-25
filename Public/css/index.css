@@ -15,6 +15,7 @@ p {
   background-repeat: no-repeat;
 }
 .header {
+  height: 16.40816327%;
   margin-bottom: 0.38666667rem;
 }
 .header .logo {
@@ -22,8 +23,8 @@ p {
   float: left;
   z-index: 3;
   margin-left: 4.4%;
-  margin-top: 5.33333333%;
-  height: 12.57142857%;
+  margin-top: 0.53333333rem;
+  height: 76.61691542%;
   width: 20%;
 }
 .header .logo img {
@@ -34,7 +35,8 @@ p {
   float: right;
   position: relative;
   z-index: 10;
-  height: 12%;
+  height: 1.96rem;
+  height: 73.13432836%;
   width: 58.26666667%;
   margin-right: 16.8%;
   margin-top: 0.68rem;
@@ -52,7 +54,7 @@ p {
 }
 .content {
   position: relative;
-  height: 54.58167331%;
+  height: 55.77689243%;
   width: 100%;
   margin-bottom: 0.28rem;
 }
@@ -128,7 +130,7 @@ p {
   font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
   line-height: 0.97333333rem;
   text-align: center;
-  color: #b5c908;
+  color: #bcba95;
 }
 .input-name textarea::-webkit-input-placeholder {
   font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
@@ -158,7 +160,7 @@ p {
   border-radius: 0.13333333rem;
   box-sizing: border-box;
   font-size: 44px;
-  font-family: "STSongti", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  font-family: "STSong", "SimSun";
   line-height: 0.96rem;
   letter-spacing: 0.02666667rem;
   font-weight: bold;
@@ -177,7 +179,9 @@ p {
   background-position: center;
 }
 .copyright {
-  margin-top: 0.26666667rem;
+  position: absolute;
+  bottom: 0.33333333rem;
+  width: 100%;
   color: #644e43;
   text-align: center;
   line-height: 1;
@@ -204,6 +208,8 @@ p {
   border-radius: 0.13333333rem;
   font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
   box-shadow: 0rem 0rem 0.26666667rem 0rem rgba(0, 0, 0, 0.7);
+  -webkit-animation: bounce-in 0.2s both;
+  animation: bounce-in 0.2s both;
 }
 .cover .alert-box .alert-icon {
   height: 1.17333333rem;
@@ -242,7 +248,7 @@ p {
 }
 .info {
   position: absolute;
-  bottom: 1.06666667rem;
+  bottom: 1.01333333rem;
   right: 2.8%;
   height: 0.70666667rem;
   width: 0.70666667rem;
@@ -337,12 +343,30 @@ p {
   }
 }
 [data-dpr="1"] .names {
-  font-size: 12px;
+  font-size: 18px;
 }
 [data-dpr="2"] .names {
-  font-size: 24px;
+  font-size: 36px;
 }
 [data-dpr="3"] .names {
+  font-size: 54px;
+}
+[data-dpr="1"] textarea::-webkit-input-placeholder {
+  font-size: 12px;
+}
+[data-dpr="2"] textarea::-webkit-input-placeholder {
+  font-size: 24px;
+}
+[data-dpr="3"] textarea::-webkit-input-placeholder {
+  font-size: 36px;
+}
+[data-dpr="1"] textarea::-moz-input-placeholder {
+  font-size: 12px;
+}
+[data-dpr="2"] textarea::-moz-input-placeholder {
+  font-size: 24px;
+}
+[data-dpr="3"] textarea::-moz-input-placeholder {
   font-size: 36px;
 }
 [data-dpr="1"] .btn-inner {
