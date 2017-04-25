@@ -633,3 +633,368 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003623s ]
 INFO: [ app_end ] --END-- [ RunTime:0.003727s ]
 
+[ 2017-04-25T01:23:14+08:00 ] ::1 /preach/index.php/Home/index/test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003838s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 60 行.
+NOTIC: [2] imagejpeg(./Public/cache/1493054594.jpg): failed to open stream: No such file or directory /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003893s ]
+
+[ 2017-04-25T01:23:43+08:00 ] ::1 /preach/index.php/Home/index/test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2017-04-25T12:16:50+08:00 ] ::1 /preach/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004597s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003885s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006353s ]
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016034s ]
+
+[ 2017-04-25T12:16:50+08:00 ] ::1 /preach/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002767s ]
+
+[ 2017-04-25T12:16:57+08:00 ] ::1 /preach/index.php/Home/index/test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2017-04-25T12:18:08+08:00 ] ::1 /preach/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2017-04-25T12:18:12+08:00 ] ::1 /preach/index.php/Home/index/test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2017-04-25T12:26:31+08:00 ] ::1 /preach/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 61 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2017-04-25T12:26:31+08:00 ] ::1 /preach/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 61 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2017-04-25T12:26:34+08:00 ] ::1 /preach/index.php/Home/index/test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 61 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2017-04-25T12:26:44+08:00 ] ::1 /preach/index.php/Home/index/test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002446s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 61 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2017-04-25T12:32:08+08:00 ] ::1 /preach/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 61 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001396s ]
+
+[ 2017-04-25T12:32:12+08:00 ] ::1 /preach/index.php/Home/index/test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 61 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2017-04-25T12:32:16+08:00 ] ::1 /preach/index.php/Home/index/test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 61 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-04-25T12:36:04+08:00 ] ::1 /preach/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004354s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 61 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001862s ]
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004320s ]
+
+[ 2017-04-25T12:36:08+08:00 ] ::1 /preach/index.php/Home/index/test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 61 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2017-04-25T12:38:59+08:00 ] ::1 /preach/index.php/Home/index/test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004206s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Applications/MAMP/htdocs/preach/Application/Home/Controller/IndexController.class.php 第 61 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003745s ]
+

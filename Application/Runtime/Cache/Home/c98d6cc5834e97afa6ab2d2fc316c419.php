@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class="inner" style="display: none;">
-            <img src="/preach/Public/cache/<?php echo ($time); ?>.jpg" alt="">
+            <img src="/preach/Public/cache/<?php echo ($text); echo ($time); ?>.jpg" alt="">
         </div>
     </div>
 </body>

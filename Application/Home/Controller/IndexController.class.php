@@ -23,16 +23,17 @@ class IndexController extends Controller {
     public function fontMark($fontsize,$x,$y,$color,$text){
     $col = imagecolorallocatealpha($this->image,$color[0],$color[1],$color[2],$color[3]);
     $black = imagecolorallocate($this->image, 0x00, 0x00, 0x00);
-    imagefttext($this->image,25,0,435,891,$black,'./Public/font/test2.ttf',$text);
-        $this->show();
+    imagefttext($this->image,25,0,435,891,$black,'./Public/font/test6.ttf',$text);
+        $this->show($text);
     }
 
-    public function show(){
+    public function show($text){
         $time = time();
     header('content-type:' . $this -> info['mime'].';charset=utf-8');
     $fun='image' . $this->info['type'];
-    $fun($this->image,'./Public/cache/'.$time.'.jpg');
+    $fun($this->image,'./Public/cache/'.$text.$time.'.jpg');
         $this->assign('time',$time);
+        $this->assign('text',$text);
         $this->display('content');
     }
 
