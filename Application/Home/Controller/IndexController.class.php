@@ -23,7 +23,7 @@ class IndexController extends Controller {
     public function fontMark($fontsize,$x,$y,$color,$text){
     $col = imagecolorallocatealpha($this->image,$color[0],$color[1],$color[2],$color[3]);
     $black = imagecolorallocate($this->image, 0x00, 0x00, 0x00);
-    imagefttext($this->image,25,0,435,891,$black,'./Public/font/test6.ttf',$text);
+    imagefttext($this->image,25,0,435,891,$black,'./Public/font/test.ttf',$text);
         $this->show($text);
     }
 
