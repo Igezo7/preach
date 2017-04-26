@@ -15,7 +15,6 @@ p {
   background-repeat: no-repeat;
 }
 .header {
-  height: 16.40816327%;
   margin-bottom: 0.38666667rem;
 }
 .header .logo {
@@ -23,9 +22,9 @@ p {
   float: left;
   z-index: 3;
   margin-left: 4.4%;
-  margin-top: 0.53333333rem;
-  height: 76.61691542%;
-  width: 20%;
+  margin-top: 0.49333333rem;
+  height: 2.05333333rem;
+  width: 2rem;
 }
 .header .logo img {
   height: 100%;
@@ -36,10 +35,9 @@ p {
   position: relative;
   z-index: 10;
   height: 1.96rem;
-  height: 73.13432836%;
-  width: 58.26666667%;
+  width: 5.82666667rem;
   margin-right: 16.8%;
-  margin-top: 0.68rem;
+  margin-top: 0.66666667rem;
 }
 .header .title img {
   display: block;
@@ -54,7 +52,7 @@ p {
 }
 .content {
   position: relative;
-  height: 55.77689243%;
+  height: 54.98007968%;
   width: 100%;
   margin-bottom: 0.28rem;
 }
@@ -180,7 +178,7 @@ p {
 }
 .copyright {
   position: absolute;
-  bottom: 0.33333333rem;
+  bottom: 0.65306122%;
   width: 100%;
   color: #644e43;
   text-align: center;
@@ -248,7 +246,7 @@ p {
 }
 .info {
   position: absolute;
-  bottom: 1.01333333rem;
+  bottom: 0.66666667rem;
   right: 2.8%;
   height: 0.70666667rem;
   width: 0.70666667rem;
