@@ -42,7 +42,7 @@ class IndexController extends Controller {
         $name = $_POST['cardname'];
         $lenth = strlen($name);
         if ($lenth=='6'){
-            $name = substr_replace($name, '  ', 3, 0);
+            $name = substr_replace($name, ' ', 3, 0);
         }
         $this->fontMark(50,1200,130,array(255,255,255,60),$name);
     }
